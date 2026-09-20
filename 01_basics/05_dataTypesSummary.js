@@ -49,5 +49,23 @@ console.log(typeof userEmail )//undefined
 
 
 
+// Stack (Primitive),Heap (Non-primitive)
 
+let myYoutubename="hiteshchoudharidotcom"
 
+let anotherName=myYoutubename
+anotherName="chaiaurcode"
+
+console.log(myYoutubename)
+console.log(anotherName)
+
+let userOne={
+  email:"user@google.com",
+  upi:"use@ybl"
+}
+
+let userTwo=userOne
+userTwo.email="hitesh@google.com"
+
+console.log(userOne.email)
+console.log(userTwo.email)
